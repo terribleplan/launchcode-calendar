@@ -1,0 +1,54 @@
+.container-fluid {
+    max-width: 1275px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.calendar-item {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.calendar-item > .well {
+    margin: 15px;
+}
+
+.calendar-item.past > .well {
+    background: #262626;
+    color: #5e5e5e;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .calendar-item {
+        width: 50%;
+    }
+
+    .calendar-item:nth-child(2n+1) {
+        clear: left;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .calendar-item {
+        width: 33%;
+    }
+
+    .calendar-item:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .calendar-item {
+        width: 25%;
+    }
+
+    .calendar-item:nth-child(4n+1) {
+        clear: left;
+    }
+}
+
