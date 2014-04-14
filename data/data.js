@@ -41,7 +41,8 @@ window["calendarData"] = [
     description: "Databases 101, SQL and NoSQL (relational vs. non-relational databases); and MongoDB",
     title: "Databases: SQL and NoSQL",
     location: "stlCentralLibrary",
-    teacher: ['mike', 'kegan']
+    teacher: ['mike', 'kegan'],
+    launchcodeTv: "http://tv.launchcode.us/#/videos/more-on-databases?lesson=MiniLectures"
   },
   {
     date: "04-14-2014",
